@@ -67,7 +67,8 @@ john.showAccount(); // this doesn't
 
 [How does JavaScript .prototype work?](http://stackoverflow.com/a/4778408)
 
-
+along with this one about [3 ways to define a JS class](http://www.phpied.com/3-ways-to-define-a-javascript-class/)
+where we got some of the overview for the above writeup
 
 
 ### unvetted links
