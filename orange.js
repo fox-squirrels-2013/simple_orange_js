@@ -11,12 +11,12 @@ function Tree(){
     this.age += 1;
     this.height += Math.random()*3;
     this.oranges += Math.ceil(Math.random()*4);
-  };
-  this.isDead = function (){
     if (this.age > 45){
       this.alive = false;
     };
-    return this.alive
+  };
+  this.isDead = function (){
+    return this.alive;
   };
 };
 
@@ -80,5 +80,6 @@ treeFifty.ageAYear();
 treeFifty.ageAYear();
 treeFifty.ageAYear();
 treeFifty.ageAYear();
-console.log(treeFifty.age)
-
+// console.log(treeFifty.age)
+// console.log(treeFifty.alive)
+// console.log(treeFifty.)
