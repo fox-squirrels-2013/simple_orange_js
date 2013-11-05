@@ -22,3 +22,5 @@ assert(tree.has_soul === true, "a tree that is living has a soul")
 assert(treeFifty.has_soul === false, "a tree that has died, should have released its tree soul")
 assert(treeFake.oranges === 2, "a tree should lose an orange when an orange is picked")
 assert(treeFake.has_soul === false, 'a fake tree should not have a soul')
+assert(treeFake.anyOranges() === true, 'a tree with oranges has oranges')
+

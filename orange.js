@@ -9,7 +9,14 @@ function Tree(){
   this.pickOrange = function (){
     this.oranges -= 1;
   };
-  this.anyOranges = function (){};
+  this.anyOranges = function (){
+    if (this.oranges >= 1){
+      return true;
+    }
+    else{
+      return false;
+    };
+  };
   this.ageAYear = function(){
     this.age += 1;
     this.height += Math.random()*3;
