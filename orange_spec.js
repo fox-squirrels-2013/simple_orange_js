@@ -2,6 +2,7 @@ function assert(outcome,description){
   console.log(outcome + " : " + description)
 }
 
-// Write your driver code here
+// Write your TDD code here  - remember: arrange, act, assert.
 
-assert(roman(1)=="I", "it converts 1 to I")
+
+assert(tree.age==0, "it creates a new tree with age 0")
