@@ -77,5 +77,5 @@ found but not read / scanned
 
 - [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
 - [Object.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
-- [advanced JS bu Resig?](http://ejohn.org/apps/learn/)
-- 
+- [advanced JS by Resig?](http://ejohn.org/apps/learn/)
+
