@@ -1,3 +1,9 @@
+function OrangeTree (age) {
+  this.age = age;
+};
+
+var tree = new OrangeTree(0);
+
 // Write your Orange tree code here 
 
 // tree = OrangeTree.new
