@@ -5,7 +5,10 @@ function Tree(){
   this.height = 0;
   this.alive = true;
   this.oranges = 0;
-  this.pickOrange = function (){};
+  this.has_soul = true;
+  this.pickOrange = function (){
+    this.oranges -= 1;
+  };
   this.anyOranges = function (){};
   this.ageAYear = function(){
     this.age += 1;
@@ -13,6 +16,8 @@ function Tree(){
     this.oranges += Math.ceil(Math.random()*4);
     if (this.age > 45){
       this.alive = false;
+      this.oranges = 0;
+      this.has_soul = false;
     };
   };
   this.isDead = function (){
@@ -26,8 +31,13 @@ var tree = new Tree();
 //   tree.age===1
 // };
 var treeTwo = new Tree();
-treeTwo.ageAYear()
+treeTwo.ageAYear();
 // console.log(treeTwo.oranges)
+
+var treeFake = new Tree();
+treeFake.has_soul = false;
+treeFake.oranges = 3;
+treeFake.pickOrange();
 
 var treeFifty = new Tree();
 treeFifty.ageAYear();
