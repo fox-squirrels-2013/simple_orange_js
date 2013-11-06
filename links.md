@@ -78,4 +78,11 @@ found but not read / scanned
 - [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
 - [Object.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
 - [advanced JS by Resig?](http://ejohn.org/apps/learn/)
+- [intro to OOP in JS by Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+
+### reference links
+
+these look interesting
+
+- [list of "Global Objects" (ie. build in objects?) in JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects?redirectlocale=en-US&redirectslug=JavaScript%2FReference%2FGlobal_Objects)
 

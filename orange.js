@@ -1,8 +1,47 @@
-function OrangeTree (age) {
-  this.age = age;
-};
+// make a new object
+// add a property
+// add a method
+// call the method and show the output in the console
 
-var tree = new OrangeTree(0);
+
+// var a =function 
+
+// create the object person
+function Person(name) {
+  this.name
+} 
+
+console.log('maybe person was made?');
+
+console.log(new Person('bob'));
+
+
+stop();
+// give the attribute mark
+me = Person("Mark")
+
+// add a method to the class
+// Person.prototype { this.last_name }
+
+
+// return a new augmented (inherited) object 
+// me = Person() {
+//   name + last_name 
+// }
+
+
+
+console.log('hi mom');
+
+
+
+stop(); // this line stops execution below this point i think
+
+// function OrangeTree (age) {
+//   this.age = age;
+// };
+
+// var tree = new OrangeTree(0);
 
 // Write your Orange tree code here 
 
